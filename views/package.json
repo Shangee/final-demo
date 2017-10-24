@@ -1,0 +1,16 @@
+{
+  "name": "workpara",
+  "version": "1.0.0",
+  "description": "an job market",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "shangeeran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.0",
+    "mongoose": "^4.11.13",
+    "pug": "^2.0.0-rc.4"
+  }
+}

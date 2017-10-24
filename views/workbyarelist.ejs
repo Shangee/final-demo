@@ -1,0 +1,8 @@
+<% include ./partial/head %>
+
+<ul>
+<% work.forEach(function(work){ %>
+  <li><h2><%= work.username %></h2></li>
+  <li><h2><%= work.address %></h2></li>
+<% }); %>
+</ul>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<% include ./partial/head %>
+<html>
+<head>
+	<title>workpara</title>
+	</head>
+
+<div class="hero-job">
+    <div class="container">
+        <h2><b>Find the Employee</b></h2>
+       <form class="form-inline" method="post" action="/viewEmployee">
+            <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect" name="work">
+                    <option value="Not Selected">Select Work</option>
+                    <option value="Mason">Mason</option>
+                    <option value="Carpenter">Carpenter</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="Electronic">Electronic</option>
+                    <option value="Mechanic">Mechanic</option>
+                    <option value="Taxi">Taxi</option>
+                    <option value="Plumbing">Plumbing</option>
+                    <option value="Labours">Labours</option>
+                    <option value="Painting">Painting</option>
+                    <option value="Health Care">Health Care</option>
+            </select>
+            <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect" name="area">
+                    <option value="Not Selected">Select Area</option>
+                    <option value="Kayts">Kayts</option>
+                    <option value="Velanai">Velanai</option>
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Karainagar">Karainagar</option>
+                    <option value="Nallur">Nallur</option>
+                    <option value="Chavakachcheri">Chavakachcheri</option>
+                    <option value="Maruthankerney">Maruthankerney</option>
+                    <option value="Point Pedro">Point Pedro</option>
+                    <option value="Karaveddy">Karaveddy</option>
+                    <option value="Kopay">Kopay</option>
+                    <option value="Tellippalai">Tellippalai</option>
+                    <option value="Sandilipay">Sandilipay</option>
+                    <option value="Uduvil">Uduvil</option>
+                    <option value="Chankanai">Chankanai</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="categories-default">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+        <h2 class="categories-default__heading">Work Categories</h2>
+        <h5 class="categories-default__heading-level-two">Explore some of the best emergency work from around the city from our partners and friends.</h5>
+
+
+        <div class="categories-default__list">
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-food-service"></span>
+                <a href="/work/carpenter" class="name">Carpenter</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-construction"></span>
+                <a href="/work/mason" class="name">Mason</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-healthcare"></span>
+                <a href="/work/healthcare" class="name">Healthcare</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-automotive"></span>
+                <a href="/work/mechanic" class="name">Mechanic</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-wallet"></span>
+                <a href="/work/electronic" class="name">Electronic</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-world"></span>
+                <a href="/work/electricity" class="name">Electricity</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-art"></span>
+                <a href="/work/painting" class="name">Painting</a>
+            </div>
+            <div class="categories-default__list-item">
+                <span class="icon iconfont-education"></span>
+                <a href="/work/plumbing" class="name">Plumbing</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="listing-recent-jobs">
+		<div class="container">
+			<center>
+				<div>
+						<div>
+								<h2 class="listing-recent-jobs__heading">Recent Jobs</h2>
+
+								<div class="listing-recent-jobs__items">
+										<table class="table table-responsive">
+												<tr class="listing-recent-jobs__item">
+														<td class="listing-recent-jobs__item-company">
+																<img src="images/listings/recent-jobs/foursquare.png" alt="">
+														</td>
+														<td>
+																<a href="#" class="listing-recent-jobs__item-title link-underlined link-underlined--endeavour">Carpenter</a>
+																<div class="listing-recent-jobs__item-description">Are you interested in <span>Carpentry</span>  work?</div>
+														</td>
+
+												</tr>
+												<tr class="listing-recent-jobs__item">
+														<td class="listing-recent-jobs__item-company">
+																<img src="images/listings/recent-jobs/disney.png" alt="">
+														</td>
+														<td>
+																<a href="#" class="listing-recent-jobs__item-title link-underlined link-underlined--endeavour">Plumbing</a>
+																<div class="listing-recent-jobs__item-description">Are you interested in <span>Plumbing</span>  work?</div>
+														</td>
+
+												</tr>
+												<tr class="listing-recent-jobs__item">
+														<td class="listing-recent-jobs__item-company">
+																<img src="images/listings/recent-jobs/dropbox.png" alt="">
+														</td>
+														<td>
+																<a href="#" class="listing-recent-jobs__item-title link-underlined link-underlined--endeavour">Electricity</a>
+																<div class="listing-recent-jobs__item-description">Are you interested in <span>Electricity</span>  work?</div>
+														</td>
+
+												</tr>
+												<tr class="listing-recent-jobs__item">
+														<td class="listing-recent-jobs__item-company">
+																<img src="images/listings/recent-jobs/amazon.png" alt="">
+														</td>
+														<td>
+																<a href="#" class="listing-recent-jobs__item-title link-underlined link-underlined--endeavour">Mason</a>
+																<div class="listing-recent-jobs__item-description">Are you interested in <span>Mason</span>  work?</div>
+														</td>
+
+												</tr>
+												<tr class="listing-recent-jobs__item">
+														<td class="listing-recent-jobs__item-company">
+																<img src="images/listings/recent-jobs/next-big-sound.png" alt="">
+														</td>
+														<td>
+																<a href="#" class="listing-recent-jobs__item-title link-underlined link-underlined--endeavour">Mechanic</a>
+																<div class="listing-recent-jobs__item-description">Are you interested in <span>Mechanic</span>  work?</div>
+														</td>
+
+												</tr>
+										</table>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="footer-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h6 class="footer-default__heading">About Us</h6>
+                <p>
+                  This workpara finishes your emergency helps and provides job
+to the jobless employees & part time employees.
+                </p>
+
+                <!-- <a href="#" class="btn btn-outline-secondary btn-get-started">Sign up</a> -->
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <h6 class="footer-default__heading footer-default__heading--sm">Categories</h6>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">Carpenter</a>
+                    </li>
+                    <li>
+                        <a href="">Electricity</a>
+                    </li>
+                    <li>
+                        <a href="">Electronic</a>
+                    </li>
+                    <li>
+                        <a href="">Labour</a>
+                    </li>
+                    <li>
+                        <a href="">Mechanic</a>
+                    </li>
+                    <li>
+                        <a href="">Vehicle</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <h6 class="footer-default__heading footer-default__heading--sm">Help</h6>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">How to work</a>
+                    </li>
+                    <li>
+                        <a href="">Other</a>
+                    </li>
+                    <li>
+                        <a href="post-job.html">Joint work</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <h6 class="footer-default__heading footer-default__heading--sm">About</h6>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6">
+                <span class="footer-default__copyright">© Themes Anytime. All Rights Reserved.</span>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer-default__follow-us">
+                    <span class="footer-default__follow-us-text">Follow Us</span>
+
+                    <div class="footer-default__follow-us-items">
+                        <a href="" class="footer-default__follow-us-item">
+                            <img src="images/social/google-plus.png" alt="">
+                        </a>
+                        <a href="" class="footer-default__follow-us-item">
+                            <img src="images/social/twitter.png" alt="">
+                        </a>
+                        <a href="" class="footer-default__follow-us-item">
+                            <img src="images/social/facebook.png" alt="">
+                        </a>
+                        <a href="" class="footer-default__follow-us-item">
+                            <img src="images/social/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="vendors/jquery/jquery.min.js"></script>
+<script src="vendors/tether/js/tether.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/dropdown.animate.js"></script>
+
+
+
+<script>
+    (function () {
+        $(document).ready(function () {
+            var dropDownToggle = $('.dropdown-toggle');
+
+            $(".navbar-toggler").on("click", function () {
+                $(this).toggleClass("is-active");
+            });
+
+            dropDownToggle.click(function() {
+                var dropdownList = $(this).parent().find('.dropdown-menu');
+                var dropdownOffset = $(this).offset();
+                var offsetLeft = dropdownOffset.left;
+                var dropdownWidth = dropdownList.width() / 2;
+                var docWidth = $(window).width();
+
+                var isDropdownVisible = (offsetLeft + dropdownWidth <= docWidth);
+
+                if (!isDropdownVisible) {
+                    dropdownList.addClass('dropdown-menu-right');
+                } else {
+                    dropdownList.removeClass('dropdown-menu-right');
+                }
+            });
+        });
+    })(jQuery);
+</script>
+
+<script src="vendors/jquery-flexdatalist/jquery.flexdatalist.min.js"></script>
+<script src="vendors/aos/aos.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/leaflet/leaflet.js"></script>
+<script src="js/common.js"></script>
+
+
+</html>

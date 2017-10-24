@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>workpara</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form">
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. ">
+    <link rel="stylesheet" href="js-form-validation.css" type="text/css">
+    <script src="sample-registration-form-validation.js"></script>
+    <style>
+      h1 {
+      margin-left: 70px;
+      }
+      form li {
+      list-style: none;
+      margin-bottom: 5px;
+      }
+      form ul li label{
+      float: left;
+      clear: left;
+      width: 100px;
+      text-align: right;
+      margin-right: 10px;
+      font-family:Verdana, Arial, Helvetica, sans-serif;
+      font-size:14px;
+      }
+      form ul li input, select, span {
+      float: left;
+      margin-bottom: 10px;
+      }
+      form textarea {
+      float: left;
+      width: 350px;
+      height: 150px;
+      }
+      [type="submit"] {
+      clear: left;
+      margin: 20px 0 0 230px;
+      font-size:18px
+      }
+      body{
+      padding-left:25%;
+      background-color:  lightgrey;
+      }
+      p {
+      margin-left: 70px;
+      font-weight: bold;
+      }
+    </style>
+    <style>
+      div {
+      background-color: white;
+      width: 600px;
+      border: 15px solid: white;
+      padding: 25px;
+      margin: 25px;
+      align:justify;
+      height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>workpara Register as Employee</h1>
+    <div>
+      <form method="post" action="/register">
+        <li>
+          <label for="userid"> National Identity Card id:</label>
+        </li>
+        <li>
+          <input type="text" name="userid" size="12" required="">
+        </li>
+        <li>
+          <label for="username">Name:</label>
+        </li>
+        <li>
+          <input type="text" name="username" size="50" required="">
+        </li>
+        <li>
+          <label for="address">Address:</label>
+        </li>
+        <li>
+          <input type="text" name="address" size="50" required="">
+        </li>
+        <li>
+          <label for="zip"> Phone No:</label>
+        </li>
+        <li>
+          <input type="text" name="number" required="">
+        </li>
+        <li>
+          <label for="email">Email:</label>
+        </li>
+        <li>
+          <input type="text" name="email" size="50" required="">
+        </li>
+        <li>
+          <label id="gender">Sex:</label>
+        </li>
+        <li>
+          <input type="radio" name="msex" value="Male"><span>Male</span>
+        </li>
+        <li>
+          <input type="radio" name="fsex" value="Female"><span>Female</span>
+        </li>
+        <li>
+          <label for="country">City:</label>
+        </li>
+        <li>
+          <select name="country">
+            <option selected="" value="Default" required="">(Please select a city)</option>
+            <option value="Kayts">Kayts</option>
+            <option value="Velanai">Velanai</option>
+            <option value="Jaffna">Jaffna</option>
+            <option value="Karainagar">Karainagar</option>
+            <option value="Nallur">Nallur</option>
+            <option value="Chavakachcheri">Chavakachcheri</option>
+            <option value="Maruthankerney">Maruthankerney</option>
+            <option value="Point Pedro">Point Pedro</option>
+            <option value="Karaveddy">Karaveddy</option>
+            <option value="Kopay">Kopay</option>
+            <option value="Tellippalai">Tellippalai</option>
+            <option value="Uduvil">Uduvil</option>
+            <option value="Sandilipay">Sandilipay</option>
+            <option value="Uduvil">Uduvil</option>
+            <option value="Chankanai">Chankanai</option>
+          </select>
+        </li><br><br><br>
+        <li>
+          <label for="work">Work:</label>
+        </li>
+          <li>
+          <select name="work">
+            <option selected="" value="Default" required="">(Please select a work)</option>
+            <option value="carpenter"> Carpenter </option>
+            <option value="mason"> Mason </option>
+            <option value="healthcare"> Healthcare </option>
+            <option value="mechanic"> Mechanic </option>
+            <option value="electronic"> Electronic </option>
+            <option value="electricity"> Electricity </option>
+            <option value="painting"> Painting </option>
+            <option value="plumbing"> Plumbing </option>
+          </select>
+        </li>
+
+        <li>
+          <input type="submit" name="submit" value="Submit">
+        </li>
+        <li>
+          <input type="submit" name="submit" value="Go Back">
+        </li>
+        <!-- <button onclick="goBack(index)">Go Back</button>
+        <script>
+        function goBack() {
+          window.history.back();  }
+        </script> -->
+
+      </form>
+    </div>
+  </body>
+</html>
